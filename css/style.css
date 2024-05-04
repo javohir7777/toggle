@@ -1,0 +1,20 @@
+#navbar-responsive {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  transition: 0.5s;
+}
+#navbar-close {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+}
